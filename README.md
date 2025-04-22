@@ -1,7 +1,8 @@
-# Resume GPT App
+# GPT Resume Optimizer + Cover Letter Generator
 
-A simple web app to upload a resume, paste job description, and get:
-1. Resume optimization suggestions
-2. A tailored cover letter
+A bilingual tool to:
+- Upload your resume (.docx)
+- Paste a job description
+- Get resume suggestions + a tailored cover letter
 
-Built using Streamlit and OpenAI GPT-4o.
+Supports English and Chinese modes.
