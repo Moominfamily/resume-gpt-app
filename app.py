@@ -30,8 +30,7 @@ if st.button("Generate Suggestions and Cover Letter"):
         with st.spinner("Analyzing and generating content with GPT-4o..."):
             messages = [
                 {"role": "system", "content": "You are an expert career coach helping job applicants optimize resumes and write tailored cover letters."},
-                {"role": "user", "content": f"Here is the job description:
-
+                {"role": "user", "content": f"Here is the job description:\n\n{job_description}"}
 {job_description}"},
                 {"role": "user", "content": f"Here is my resume:
 
